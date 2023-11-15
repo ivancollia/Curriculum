@@ -16,7 +16,7 @@ img{
     width: 130px;
 }
 img:hover{
-    width: 150px;
+    width: 140px;
     transition: 1s;
 }
 .presentación{
@@ -28,7 +28,7 @@ img:hover{
 }
 .contacto{
     font-size: 25px;
-    padding: 25px;
+    padding: 20px;
 }
 footer{
     text-align: center;
