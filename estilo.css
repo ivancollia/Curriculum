@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 10px;    
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 25px;
+}
+img{
+    width: 130px;
+}
+img:hover{
+    width: 150px;
+    transition: 1s;
+}
+.presentación{
+    font-family: cursive;
+    font-size: 25px;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contacto{
+    font-size: 25px;
+    padding: 25px;
+}
+footer{
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    img {
+      max-width: 20%;
+    }
+    .presentación{
+        font-size: 18px;
+        padding: 5px;
+    }
+    *{
+        font-size: .2fr;
+    }
+    .imagenes{
+    text-align: center;
+    }
+    .contacto{
+        font-size: .1fr;
+        text-align: center;
+    }
+    .proyectos{
+    text-align: center;
+}
+    
+}
+  
+  
